@@ -22,9 +22,24 @@ public class main {
                         participant.finishGame();
                     }
                     participant.bingos += 1;
+                    participant.numbers.remove(Integer.valueOf(number));
 
                 }
             });
         }
+        //If no one gets bingos  = 3, the participant with highest bingo wins.
+        Integer bingos  = 0;
+        String highest = "someone";
+        for(Participants participant : participants)
+        {
+            if (participant.bingos>bingos)
+            {
+                highest = participant.id;
+                bingos = participant.bingos;
+            }
+        }
+        System.out.println("NO ONE GOT 3 BINGOS, HIGHEST BINGOS IS ACHIEVED BY - ");
+        System.out.println(highest);
+        System.out.println(bingos);
     }
 }
