@@ -38,8 +38,9 @@ public class main {
                 bingos = participant.bingos;
             }
         }
-        System.out.println("NO ONE GOT 3 BINGOS, HIGHEST BINGOS IS ACHIEVED BY - ");
+        System.out.println("NO ONE GOT 3 BINGOS, HIGHEST BINGOS IS ACHIEVED BY PARTICIPANT- ");
         System.out.println(highest);
+        System.out.println("NUMBER OF BINGOS = ");
         System.out.println(bingos);
     }
 }
