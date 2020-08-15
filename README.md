@@ -1,4 +1,4 @@
-# Manit_OOP_Assignment
+# Bingo
 The N participant Bingo Game, Made for 10 Participants.</br> 
 Participant class is in Participants.java. </br>
 Each Participant has an ID, An arrayList containing its 10 numbers. 
